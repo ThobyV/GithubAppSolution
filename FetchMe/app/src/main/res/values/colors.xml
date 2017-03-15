@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+        <item name="primary_color" type="color">#FF0069ca</item>
+		<item name="primary_dark_color" type="color">#FF3949a3</item>
+		<item name="textPrimary_color" type="color">#FFFFFF</item>
+		<item name="white" type="color">#ffffff</item>
+		<item name="tintgreen" type="color">#89c402</item>
+		<item name="ashtwo" type="color">#c9c9c9</item>
+		<item name="hashbar" type="color">#e4e4e4</item>
+		<item name="ash" type="color">#646464</item>
+		<item name="listfont" type="color">#040404</item>
+		<item name="thedark" type="color">#2f383d</item>
+		
+	</resources>

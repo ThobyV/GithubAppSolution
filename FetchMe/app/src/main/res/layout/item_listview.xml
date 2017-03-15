@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp" > 
+
+
+    <ImageView
+        android:id="@+id/imagedp"
+		android:padding="5dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+		android:layout_alignBottom="@+id/imgCorners"
+        android:layout_alignLeft="@+id/imgCorners"
+        android:layout_alignRight="@+id/imgCorners"
+        android:layout_alignTop="@+id/imgCorners"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginRight="6dp"
+        android:contentDescription="@string/app_name"
+         />
+
+    
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imagedp"
+        android:layout_toRightOf="@+id/imagedp"
+        android:textColor="@color/listfont"
+        android:textStyle="bold"
+		android:typeface="sans"
+        android:textSize="13dip"
+		/>
+	
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+
+		android:id="@+id/userdp"/>
+	
+    <TextView
+        android:id="@+id/profileurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/username"
+		android:layout_marginTop="8dip"
+		android:layout_toRightOf="@+id/imagedp" 
+        android:padding="5dp"
+		android:paddingLeft="0dp"
+        android:textColor="@color/white" 
+		android:background="@color/ash"
+		/>
+	
+</RelativeLayout>

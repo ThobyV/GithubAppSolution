@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/thedark"
+    android:orientation="vertical">
+    
+	
+	<TextView
+	    android:layout_alignParentTop="true"
+		android:layout_marginTop="120dip"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="robot-regular"
+		android:text="@string/appname"
+		android:textSize="30dip"
+		android:textColor="@color/white"
+		android:id="@+id/appname"/>
+	
+	
+
+	<TextView
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="robot-regular"
+		android:text="@string/desc"
+		android:textSize="14dip"
+		android:textColor="@color/white"
+		android:id="@+id/desc"/>
+	
+	
+	
+	<Button
+        android:id="@+id/openbutton"
+		android:layout_marginBottom="35dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Click to continue"
+		android:fontFamily="sans-serif-light"
+		android:textStyle="normal"
+		android:textSize="16dip"
+		android:textColor="@color/white"
+		android:background="@drawable/btncorners"/>
+	
+	</RelativeLayout>

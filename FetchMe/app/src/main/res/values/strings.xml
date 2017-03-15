@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetHub</string>
+	<string name="appname">GetHub_</string>
+	<string name="desc">One great way to find github developers...</string>
+	<string name="auth0_client_id">j4UBMfQs5KfvVBeNovDzbzRfuX19ImnA</string>
+	<string name="auth0_domain">thoby.auth0.com</string>
+	
+</resources>

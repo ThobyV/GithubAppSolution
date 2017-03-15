@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/tintgreen">
+	<TextView
+	    android:layout_alignParentTop="true"
+		android:layout_marginTop="20dip"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="robot-regular"
+		android:textSize="20dip"
+		android:textColor="@color/white"
+		android:id="@+id/username"/>
+	
+	<TextView
+	    android:layout_alignParentTop="true"
+		android:layout_marginTop="60dip"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="robot-regular"
+		android:textSize="16dip"
+		android:textColor="@color/white"
+		android:text="photo will load in a sec.."
+		android:id="@+id/textwait"/>
+	
+  <TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:id="@+id/userdpx"/>
+	
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:id="@+id/profileurl"/>
+	
+	
+	<ImageView
+	android:id="@+id/imagedpp"
+	android:layout_alignParentTop="true"
+	android:layout_marginTop="100dip"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+	android:layout_centerInParent="true" 
+    android:padding="5dp"
+	android:contentDescription="@string/app_name"
+	/>
+
+	
+	
+	<Button
+        android:id="@+id/button1"
+		android:padding="10dip"
+		android:layout_marginTop="0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerInParent="true" 
+		android:background="@color/white"
+		android:text="check me out on your browser"
+		android:textColor="@color/thedark"
+		/>
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="200dip"
+		android:layout_alignParentBottom="true"
+		android:background="@color/thedark">
+		
+	<Button
+		android:id="@+id/share"
+		android:layout_marginBottom="25dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerInParent="true"
+		android:text="Share Profile"
+		android:fontFamily="sans-serif-light"
+		android:textStyle="normal"
+		android:textSize="14dip"
+		android:textColor="@color/white"
+		android:background="@drawable/btncorners"/>
+	
+	</RelativeLayout>
+</RelativeLayout>
