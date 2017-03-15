@@ -8,7 +8,7 @@ import android.graphics.BitmapFactory;
 import java.io.InputStream;
 
 
-/**
+/***
 A helper class to help us download selected 
 user Image using id from listview 
 to userProfile Activity
